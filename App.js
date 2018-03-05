@@ -21,7 +21,7 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Hello World 2
+          Hello World 3
         </Text>
 
       </View>
