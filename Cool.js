@@ -90,7 +90,7 @@ export default class Cool extends Component {
 							{this.state.isLoading ?
 								<Image source={spinner} style={styles.image} />
 								:
-								<Text style={styles.text}>WELCOME!</Text>
+								<Text style={styles.text}>WELCOME EEasdasd!</Text>
 							}
 					</TouchableOpacity>
 					<Animated.View style={[ styles.circle, {transform: [{scale: changeScale}]} ]} />
