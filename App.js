@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import Cool from './Cool';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload'
@@ -19,12 +20,7 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Hello World 3
-        </Text>
-
-      </View>
+<Cool/>
     );
   }
 }
